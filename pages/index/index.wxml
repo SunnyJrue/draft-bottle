@@ -1,0 +1,29 @@
+<!-- <view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+<view>4</view>
+<view>3</view>
+<view>2</view>
+<view>1</view> -->
+ <view class='wrap' > 
+    <image mode='scaleToFill' style='height:100%;width:100%' src='../../images/bg.jpg'></image>
+
+
+    <view class='bottle' animation='{{amnBottle}}'>
+    
+    </view>
+    <!--底部放置道具区域  -->
+    <view class='bottom'>
+        <!--模拟按钮  -->
+        <view class='buttons' bindtap='throwBottle'></view>
+    </view>
+
+    <!--模态窗口  -->
+    <!--填写窗口  -->
+     <view class='modal'>
+        <!--扔瓶子模块  -->
+        <view class='innerModal'></view>
+        <view class='throwBottle'>
+            <image  src='../../images/info.png'></image>
+            <textarea></textarea>
+        </view>
+    </view> 
+ </view> 
